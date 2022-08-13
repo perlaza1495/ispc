@@ -114,7 +114,7 @@ export const SHLVL = "2";
 export const HOME = "/Users/aleja";
 
 /** @type {import('$env/static/private').VSCODE_GIT_ASKPASS_MAIN} */
-export const VSCODE_GIT_ASKPASS_MAIN = "/private/var/folders/0m/lf4_96690s3g3q_4l9sf6y400000gn/T/AppTranslocation/634825FB-37FE-47DE-BC58-9D89801B9A71/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js";
+export const VSCODE_GIT_ASKPASS_MAIN = "/private/var/folders/0m/lf4_96690s3g3q_4l9sf6y400000gn/T/AppTranslocation/B13889FE-5364-42C2-B457-F96BD345A645/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js";
 
 /** @type {import('$env/static/private').npm_config_cache} */
 export const npm_config_cache = "/Users/aleja/.npm";
@@ -132,10 +132,10 @@ export const VSCODE_GIT_IPC_HANDLE = "/var/folders/0m/lf4_96690s3g3q_4l9sf6y4000
 export const npm_config_user_agent = "npm/8.15.0 node/v18.7.0 darwin x64 workspaces/false";
 
 /** @type {import('$env/static/private').GIT_ASKPASS} */
-export const GIT_ASKPASS = "/private/var/folders/0m/lf4_96690s3g3q_4l9sf6y400000gn/T/AppTranslocation/634825FB-37FE-47DE-BC58-9D89801B9A71/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh";
+export const GIT_ASKPASS = "/private/var/folders/0m/lf4_96690s3g3q_4l9sf6y400000gn/T/AppTranslocation/B13889FE-5364-42C2-B457-F96BD345A645/d/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh";
 
 /** @type {import('$env/static/private').VSCODE_GIT_ASKPASS_NODE} */
-export const VSCODE_GIT_ASKPASS_NODE = "/private/var/folders/0m/lf4_96690s3g3q_4l9sf6y400000gn/T/AppTranslocation/634825FB-37FE-47DE-BC58-9D89801B9A71/d/Visual Studio Code.app/Contents/MacOS/Electron";
+export const VSCODE_GIT_ASKPASS_NODE = "/private/var/folders/0m/lf4_96690s3g3q_4l9sf6y400000gn/T/AppTranslocation/B13889FE-5364-42C2-B457-F96BD345A645/d/Visual Studio Code.app/Contents/MacOS/Electron";
 
 /** @type {import('$env/static/private').npm_node_execpath} */
 export const npm_node_execpath = "/usr/local/bin/node";
