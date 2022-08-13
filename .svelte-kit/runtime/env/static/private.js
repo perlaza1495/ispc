@@ -6,7 +6,7 @@ export const ALLUSERSPROFILE = "C:\\ProgramData";
 export const APPDATA = "C:\\Users\\Pc de Juan\\AppData\\Roaming";
 
 /** @type {import('$env/static/private').CHROME_CRASHPAD_PIPE_NAME} */
-export const CHROME_CRASHPAD_PIPE_NAME = "\\\\.\\pipe\\crashpad_1652_CYNDBELUHBTBPSIE";
+export const CHROME_CRASHPAD_PIPE_NAME = "\\\\.\\pipe\\crashpad_2916_LMRRTQFIUILKVAES";
 
 /** @type {import('$env/static/private').COLOR} */
 export const COLOR = "1";
@@ -54,7 +54,7 @@ export const HOMEPATH = "\\Users\\Pc de Juan";
 export const INIT_CWD = "C:\\Users\\Pc de Juan\\Desktop\\ispc";
 
 /** @type {import('$env/static/private').LANG} */
-export const LANG = "es_ES.UTF-8";
+export const LANG = "en_US.UTF-8";
 
 /** @type {import('$env/static/private').LOCALAPPDATA} */
 export const LOCALAPPDATA = "C:\\Users\\Pc de Juan\\AppData\\Local";
