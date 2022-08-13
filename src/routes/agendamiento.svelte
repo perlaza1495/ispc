@@ -3,8 +3,8 @@
 </script>
 
 <main>
-    <h1>Agendamiento</h1>
-    <h2>Area de citas</h2>
+    <h1>Area de Citas</h1>
+    <h2>Registrar Cita</h2>
 </main>
 
 <style>
