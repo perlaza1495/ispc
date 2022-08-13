@@ -1,11 +1,11 @@
 export { matchers } from './client-matchers.js';
 
 export const components = [
-	() => import("../../src/routes/__layout.svelte"),
-	() => import("../runtime/components/error.svelte"),
-	() => import("../../src/routes/agendar.svelte"),
-	() => import("../../src/routes/index.svelte"),
-	() => import("../../src/routes/opciones.svelte")
+	() => import("..\\..\\src\\routes\\__layout.svelte"),
+	() => import("..\\runtime\\components\\error.svelte"),
+	() => import("..\\..\\src\\routes\\agendar.svelte"),
+	() => import("..\\..\\src\\routes\\index.svelte"),
+	() => import("..\\..\\src\\routes\\opciones.svelte")
 ];
 
 export const dictionary = {
