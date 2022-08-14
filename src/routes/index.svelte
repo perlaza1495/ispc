@@ -1,14 +1,5 @@
 <script>
-
-    var usuario = "";
-    var password ="";
-
-function clic(){
-    alert("hola " + usuario + " tu password es: " + password);
-}
-
-
-
+    
 </script>
 
 <main class="container">
@@ -25,11 +16,11 @@ function clic(){
             
             <h2>Ingresa tu usuario y contraseña</h2>
 
-            <input type="Usuario" placeholder="Usuario" bind:value={usuario}>
+            <input type="Usuario" placeholder="Usuario">
         
-            <input type="password" placeholder="password" bind:value={password}>
+            <input type="password" placeholder="password">
            
-            <button on:click={clic}>Ingresar</button>           
+            <button on:click={""}>Ingresar</button>           
             
         </form>
 

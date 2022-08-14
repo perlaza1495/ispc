@@ -86,6 +86,7 @@
         padding: 12px;
         color: white;
         margin: 16px 0;
+        font-family: 'calibri Bold';
         font-size: 16px;
     }
 </style>
