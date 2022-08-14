@@ -33,6 +33,7 @@
     }
 
     h1{
+        margin-top: 200px;
         text-align: center;
         font-family: 'calibri'; 
     }
