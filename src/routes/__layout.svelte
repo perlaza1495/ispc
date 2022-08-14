@@ -1,7 +1,7 @@
 <script>
     import Footer from "../components/fotter.svelte"
-</script> 
-<slot/>
+</script>
+
 <main>
     
 
@@ -28,7 +28,9 @@
 
         </div>
     </header>
+    
 </main>
+
 
 <style>
 
@@ -135,3 +137,4 @@
 
 </style>
 
+<slot/> 
