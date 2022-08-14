@@ -14,7 +14,7 @@
         <input type="text" class="controls" name="Apellidos" id="apellidos" placeholder="Ingrese su apellido">
 
         <h2>No. del documento de identidad</h2>
-        <input type="number" class="controls"  name="no.documetno" id="documento" placeholder="Ingrese su # de identidad">
+        <input type="number" class="controls"  name="no.documento" id="documento" placeholder="Ingrese su # de identidad">
 
         <h2>Direccion de residencia</h2>
         <input type="text" class="controls" name="Apellidos" id="apellidos" placeholder="Ingrese su direccion">
@@ -49,7 +49,8 @@
     }
 
     h1{
-       font-family: 'calibri'; 
+        text-align: center;
+        font-family: 'calibri'; 
     }
 
     .form-register{
@@ -57,10 +58,11 @@
         background: #24303c;
         padding: 30px;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 10px;
         border-radius: 4px;
         font-family: 'calibri';
         color: white;
+        box-shadow: 7px 13px 37px #000;
     }
 
     .form-register h2{
