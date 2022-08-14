@@ -26,10 +26,6 @@
 
 
     </div>
-    
-
-    
-
 
 </main>
 
@@ -90,7 +86,7 @@
         width: 200px;
         height: 30px;
         margin: 10px;
-        background-color: #99EAF9;
+        background: #1E213D;
         color: white;
         border: 0px;
         

@@ -39,13 +39,13 @@
 
     .form-register{
         width: 400px;
-        background: #24303c;
+        background: #99EAF9;
         padding: 30px;
         margin: auto;
         margin-top: 10px;
         border-radius: 4px;
         font-family: 'calibri';
-        color: white;
+        color: #000;
         box-shadow: 7px 13px 37px #000;
     }
 
@@ -56,14 +56,13 @@
 
     .controls{
         width: 100%;
-        background: #24303c;
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 16px;
         border: 1px solid #1f53c5;
         font-family: 'calibri';
         font-size: 18px;
-        color: aliceblue;
+        color: #000;
     }
 
     .seleccion{
@@ -81,12 +80,12 @@
 
     .form-register .boton{
         width: 100%;
-        background: #1f53c5;
+        background: #1E213D;
         border: none;
         padding: 12px;
         color: white;
         margin: 16px 0;
-        font-family: 'calibri Bold';
-        font-size: 16px;
+        font-family: 'calibri';
+        font-size: 18px;
     }
 </style>

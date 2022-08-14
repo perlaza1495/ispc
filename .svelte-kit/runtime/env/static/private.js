@@ -6,7 +6,7 @@ export const ALLUSERSPROFILE = "C:\\ProgramData";
 export const APPDATA = "C:\\Users\\Pc de Juan\\AppData\\Roaming";
 
 /** @type {import('$env/static/private').CHROME_CRASHPAD_PIPE_NAME} */
-export const CHROME_CRASHPAD_PIPE_NAME = "\\\\.\\pipe\\crashpad_2916_LMRRTQFIUILKVAES";
+export const CHROME_CRASHPAD_PIPE_NAME = "\\\\.\\pipe\\crashpad_10184_CJLPNOWIBVRHORVE";
 
 /** @type {import('$env/static/private').COLOR} */
 export const COLOR = "1";
