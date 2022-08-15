@@ -1,44 +1,29 @@
 <script>
-
-    var usuario = "";
-    var password ="";
-
-function clic(){
-    alert("hola " + usuario + " tu password es: " + password);
-}
-
-
-
+    
 </script>
 
 <main class="container">
-
-    <h1>BIENVENIDO A ISPC TECHNOLOGY</h1>
-
+    <title>Login</title>
     
-
+    <h1>BIENVENIDO A ISPC TECHNOLOGY</h1>
     <div  class="form_cont" >
 
-        <img src="img1.jpeg" alt="">
+        <img src="banner.png" alt="">
 
         <form action="" class="form">
             
             <h2>Ingresa tu usuario y contraseña</h2>
 
-            <input type="Usuario" placeholder="Usuario" bind:value={usuario}>
+            <input type="Usuario" placeholder="Usuario">
         
-            <input type="password" placeholder="password" bind:value={password}>
+            <input type="password" placeholder="password">
            
-            <button on:click={clic}>Ingresar</button>           
+            <button on:click={""}>Ingresar</button>           
             
+            <a href="#">¿Olvido su contraseña?</a>
         </form>
 
-
     </div>
-    
-
-    
-
 
 </main>
 
@@ -48,6 +33,7 @@ function clic(){
    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
     .container{
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -68,22 +54,28 @@ function clic(){
     }
 
     h1{
-     margin: 60px 0px 40px 0px;
-     color: #99EAF9;
-     font-family: 'Roboto', sans-serif;
+        margin: 0px 0px 0px 0px;
+        color: #1E213D;
+        font-family: 'Roboto', sans-serif;
     }
 
     h2{
-     font-size: 18px;
-     
+     font-size: 20px;
      margin-bottom: 30px;
      color: black;
      font-family: 'Roboto', sans-serif;
     }
+
+    .form a{
+        margin: 20px 0 0 0;
+        font-family: 'Roboto';
+        font-size: 18px;
+    }
+
     img{
         margin: 0px 0px 0px 120px;
-       
-        width: 200px;
+        width: 400px;
+        height: 400;
     }
 
     input{
@@ -91,17 +83,22 @@ function clic(){
         width: 250px;
         height: 25px;
         margin: 10px;
-        border-color: #99EAF9;
+        border-color: #1E213D;
+        font-family: 'Roboto';
+        font-size: 16px;
     }
 
     button{
         border-radius: 25px;
         width: 200px;
         height: 30px;
-        margin: 10px;
-        background-color: #99EAF9;
+        margin: 15px;
+        background: #1E213D;
         color: white;
         border: 0px;
+        font-family: 'Roboto';
+        font-size: 18px;
+        cursor: pointer;
         
     }
 
