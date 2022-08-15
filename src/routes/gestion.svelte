@@ -16,18 +16,18 @@
             <div class="menu">
                 <nav>
                     <ul>
-                        <li><a href="#"><img src="icon_home.png" alt=""></a></li>
+                        <li><a href="/gestion"><img src="icon_home.png" alt=""></a></li>
                         <li><a href="/agendamiento_cita">Citas</a></li>
                         <li><a href="/creacion_pacientes">Pacientes</a></li>
-                        <li><a href="#">Soporte al Usuario</a></li>
                     </ul>
 
                 </nav>
             </div>
 
         </div>
+        <img class="back1" src="./fondo.jpeg" alt="">
     </header>
-    <img class="back1" src="./fondo.jpeg" alt="">
+    
 
 </main>
 
@@ -46,6 +46,7 @@
 
     /*HEADER SUPERIOR*/
     header{
+        position: relative;
         width: 100%;
         position: fixed;
         top: 0;
@@ -136,7 +137,6 @@
 
     .back1{
         width: 100%;
-        margin-top: 180px;
     }
 
 </style>
