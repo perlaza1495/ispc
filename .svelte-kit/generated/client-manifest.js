@@ -1,7 +1,7 @@
 export { matchers } from './client-matchers.js';
 
 export const components = [
-	() => import("..\\..\\src\\routes\\__layout.svelte"),
+	() => import("..\\runtime\\components\\layout.svelte"),
 	() => import("..\\runtime\\components\\error.svelte"),
 	() => import("..\\..\\src\\routes\\agendamiento_cita.svelte"),
 	() => import("..\\..\\src\\routes\\creacion_pacientes.svelte"),
