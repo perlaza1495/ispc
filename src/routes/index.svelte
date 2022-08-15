@@ -5,10 +5,10 @@
 <main class="container">
     <title>Login</title>
     
-
+    <h1>BIENVENIDO A ISPC TECHNOLOGY</h1>
     <div  class="form_cont" >
 
-        <img src="banner.jpeg" alt="">
+        <img src="banner.png" alt="">
 
         <form action="" class="form">
             
@@ -33,7 +33,6 @@
    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
     .container{
-        margin-top: 190px;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -52,6 +51,12 @@
         flex-direction: column;
         align-items: center;
         
+    }
+
+    h1{
+        margin: 0px 0px 0px 0px;
+        color: #1E213D;
+        font-family: 'Roboto', sans-serif;
     }
 
     h2{
@@ -93,6 +98,7 @@
         border: 0px;
         font-family: 'Roboto';
         font-size: 18px;
+        cursor: pointer;
         
     }
 
