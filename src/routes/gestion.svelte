@@ -17,18 +17,9 @@
                 <nav>
                     <ul>
                         <li><a href="#"><img src="icon_home.png" alt=""></a></li>
-                        <li><a href="/agendamiento_cita">Area Citas</a>
-                            <ul>
-                                <li><a href="#">Consultar Cita</a></li>
-                                <li><a href="#">Registrar Cita</a></li>
-                                <li><a href="#">Actualizar Cita</a></li>
-                                <li><a href="#">Eliminar cita</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Area Pacientes</a></li>
+                        <li><a href="#">Citas</a></li>
+                        <li><a href="#">Pacientes</a></li>
                         <li><a href="#">Soporte al Usuario</a></li>
-                        <li><a href="#">Modo Espera</a></li>
-                        <li><a href="#">Storage</a></li>
                     </ul>
 
                 </nav>
@@ -141,62 +132,6 @@
         transform: scale(1.1);
         background: #0074c7;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0, 0.5);
-    }
-
-    /*SUBMENU*/
-
-    nav ul li ul{
-        width: 200px;
-        display: flex;
-        flex-direction: column;
-        background: #fff;
-        position: absolute;
-        top: 90px;
-        left: -5px;
-        padding: 14px 0px;
-        visibility: hidden;
-        opacity: 0;
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0, 0.5);
-        z-index: 10;
-        transition: all 300ms ease;
-    }
-
-    nav ul li:hover ul{
-        visibility: visible;
-        opacity: 1;
-        top: 70px;
-    }
-
-    nav ul li ul::before{
-        content: '';
-        width: 0;
-        height: 0;
-        border-left: 12px solid transparent;
-        border-right: 12px solid transparent;
-        border-bottom: 12px solid white;
-        position: absolute;
-        top: -12px;
-        left: 20px;
-    }
-
-    nav ul li ul li a{
-        display: block;
-        color: #0099E9;
-        padding: 6px;
-        padding-left: 14px;
-        margin-top: 10px;
-        font-size: 14px;
-        text-transform: uppercase;
-        transition: all 300ms ease;
-    }
-
-    nav ul li ul li a:hover{
-        background: #0074C7;
-        color: #fff;
-        transform: scale(1.1);
-        padding-left: 30px;
-        font-size: 14px;
-        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.5);
     }
 
 </style>
