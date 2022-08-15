@@ -27,7 +27,7 @@
 
         </div>
     </header>
-    
+    <img class="back1" src="./fondo.jpeg" alt="">
 
 </main>
 
@@ -132,6 +132,11 @@
         transform: scale(1.1);
         background: #0074c7;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0, 0.5);
+    }
+
+    .back1{
+        width: 100%;
+        margin-top: 180px;
     }
 
 </style>
