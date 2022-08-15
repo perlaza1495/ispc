@@ -87,5 +87,6 @@
         margin: 16px 0;
         font-family: 'calibri';
         font-size: 18px;
+        cursor: pointer;
     }
 </style>

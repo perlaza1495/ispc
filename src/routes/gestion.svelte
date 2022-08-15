@@ -17,8 +17,8 @@
                 <nav>
                     <ul>
                         <li><a href="#"><img src="icon_home.png" alt=""></a></li>
-                        <li><a href="#">Citas</a></li>
-                        <li><a href="#">Pacientes</a></li>
+                        <li><a href="/agendamiento_cita">Citas</a></li>
+                        <li><a href="/creacion_pacientes">Pacientes</a></li>
                         <li><a href="#">Soporte al Usuario</a></li>
                     </ul>
 
