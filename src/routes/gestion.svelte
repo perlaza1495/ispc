@@ -17,7 +17,7 @@
                 <nav>
                     <ul>
                         <li><a href="#"><img src="icon_home.png" alt=""></a></li>
-                        <li><a href="#">Area Citas</a>
+                        <li><a href="/agendamiento_cita">Area Citas</a>
                             <ul>
                                 <li><a href="#">Consultar Cita</a></li>
                                 <li><a href="#">Registrar Cita</a></li>
@@ -124,8 +124,6 @@
         background-repeat: no-repeat;
         background-position: center center;
     }
-
-    
 
     nav > ul > li a{
         width: 100%;
