@@ -5,6 +5,9 @@
 <main>
     
 
+<<<<<<< HEAD
+
+=======
     <header>
         <div class="header_superior">
             <h1>BIENVENIDO A ISPC TECHNOLOGY</h1>
@@ -38,10 +41,12 @@
         </div>
     </header>
     
+>>>>>>> origin/master
 </main>
 
 
 <style>
+    
 
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     *{
